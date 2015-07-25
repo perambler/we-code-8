@@ -5,16 +5,18 @@
 }
 
 .nav{
+    margin: auto;
     width: 63em;
     height: 3em;
     -moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
     border-style: solid;
     opacity: 80%;
-    position: relative;
     border-width: thin;
+/*    position: relative; 
     top: 4em;
     left: 8em;
+  */
 }
 
 .subtitle{
@@ -24,15 +26,36 @@
     position: relative;
 }
 
-.Needs{}
 
-.Wants{}
+p{
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    margin-right: 8.5em;
+}
 
-.Likes{}
+.category ul{
+  height: 15em;
+}
+
+#Needs{
+    border-right-style: solid;  
+    border-right-width: thin;
+}
+
+#Wants{
+}
+
+#Likes{
+    border-left-style: solid;  
+    border-left-width: thin;
+}
 
 .wordbank{}
 
 .map{}
+
+.nav{
+}
 
 body {
 
