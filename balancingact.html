@@ -9,8 +9,11 @@
     <link rel="stylesheet" type="text/css" href="gwfstyle.css">
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- jQuery library -->
+
+    <!-- jQuery and jQueryUI libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+
     <!-- Latest compiled JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     
@@ -28,28 +31,28 @@
       <div>
         <div id="Needs" class="category col-sm-4">
           <h2>Needs</h2>
-          <ul id="needsBox" onDrop="drop(event)" onDragOver="allowDrop(event)"></ul>
+          <ul id="needsDrop"></ul>
         </div>
         <div id="Wants" class="category col-sm-4" >
           <h2>Wants</h2>
-          <ul id="wantsBox" onDrop="drop(event)" onDragOver="allowDrop(event)"></ul>
+          <ul id="wantsDrop"></ul>
         </div>
         <div id="Likes" class="category col-sm-4">
           <h2>Likes</h2>
-          <ul id="likesBox" onDrop="drop(event)" onDragOver="allowDrop(event)"></ul>
+          <ul id="likesDrop"></ul>
         </div>
       </div>
       <div class="row">
         <div id="wordBank" class="wordBank">
           <ul>
-            <li draggable="true" onDragStart="drag(event)">Handicap Accessable</li>
-            <li draggable="true" onDragStart="drag(event)">Daycare</li>
-            <li draggable="true" onDragStart="drag(event)">Public Transit</li>
-            <li draggable="true" onDragStart="drag(event)">Gluten Free</li>
-            <li draggable="true" onDragStart="drag(event)">Dietary Restrictions</li>
-            <li draggable="true" onDragStart="drag(event)">High Culture Rating</li>
-            <li draggable="true" onDragStart="drag(event)">Diversity Score</li>
-            <li draggable="true" onDragStart="drag(event)">Walkability Score</li>
+            <li class="dragme">Handicap Accessable</li>
+            <li class="dragme">Daycare</li>
+            <li class="dragme">Public Transit</li>
+            <li class="dragme">Gluten Free</li>
+            <li class="dragme">Dietary Restrictions</li>
+            <li class="dragme">High Culture Rating</li>
+            <li class="dragme">Diversity Score</li>
+            <li class="dragme">Walkability Score</li>
           </ul>
         </div>
       </div>
