@@ -8,11 +8,46 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Latest compiled JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<title>Balancing Act</title>
-<h1 class="title">Balancing Act</h1>
-<p class="subtitle">Finding a Whole Job for your Whole Person</p>
+    <title>Balancing Act</title>
 </head>
 <body>
-    
+    <h1 class="title">Balancing Act</h1>
+    <p class="subtitle">Finding a Whole Job for your Whole Person</p>
+        <div class="container-fluid">
+      <div class="row">
+        <h1 class="title">A Glass Whole Full</h1>
+        <p>Finding a Whole Job for your Whole Person</p>
+        <div class="nav"></div>
+      </div>
+      <div>
+        <div id="Needs" class="category col-sm-4">
+          <h2>Needs</h2>
+          <ul id="needsBox" onDrop="drop(event)" onDragOver="allowDrop(event)"></ul>
+        </div>
+        <div id="Wants" class="category col-sm-4" >
+          <h2>Wants</h2>
+          <ul id="wantsBox" onDrop="drop(event)" onDragOver="allowDrop(event)"></ul>
+        </div>
+        <div id="Likes" class="category col-sm-4">
+          <h2>Likes</h2>
+          <ul id="likesBox" onDrop="drop(event)" onDragOver="allowDrop(event)"></ul>
+        </div>
+      </div>
+      <div class="row">
+        <div id="wordBank" class="wordBank">
+          <ul>
+            <li draggable="true" onDragStart="drag(event)">Handicap Accessable</li>
+            <li draggable="true" onDragStart="drag(event)">Daycare</li>
+            <li draggable="true" onDragStart="drag(event)">Public Transit</li>
+            <li draggable="true" onDragStart="drag(event)">Gluten Free</li>
+            <li draggable="true" onDragStart="drag(event)">Dietary Restrictions</li>
+            <li draggable="true" onDragStart="drag(event)">High Culture Rating</li>
+            <li draggable="true" onDragStart="drag(event)">Diversity Score</li>
+            <li draggable="true" onDragStart="drag(event)">Walkability Score</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
 </body>
 </html>
