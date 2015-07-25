@@ -1,0 +1,39 @@
+.title {
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    margin-right: 2.8em;
+}
+
+.nav{
+    width: 63em;
+    height: 3em;
+    -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    border-style: solid;
+    opacity: 80%;
+    position: relative;
+    border-width: thin;
+    top: 4em;
+    left: 8em;
+}
+
+.subtitle{
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    margin-right: 4.6em;
+    position: relative;
+}
+
+.Needs{}
+
+.Wants{}
+
+.Likes{}
+
+.wordbank{}
+
+.map{}
+
+body {
+
+}
